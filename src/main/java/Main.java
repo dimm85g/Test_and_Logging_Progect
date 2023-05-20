@@ -29,6 +29,6 @@ public class Main {
         hippodrome.getHorses().stream()
                 .map(horse -> ".".repeat((int) horse.getDistance()) + horse.getName())
                 .forEach(System.out::println);
-        System.out.println("\n".repeat(10));
+        System.out.println("\n".repeat(3));
     }
 }
